@@ -1,0 +1,119 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-inline: 50px;
+
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .nav {
+      .nav__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+  
+        li {
+          margin-left: 2rem;
+          font-size: 1rem;
+          cursor: pointer;
+          font-family: Montserrat, sans-serif;
+          text-align: center;
+          font-weight: 600;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-inline: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    .search__input{
+      width: 400px;
+      height: 35px;
+      border-radius: 8px;
+      font-size: 17px;
+      
+    }
+  }
+
+  .cart__h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+  }
+  
+  .cart__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .cart__border{
+    box-shadow: 0px 0px 5px #111;
+    background-color: #fff;
+    width: 238.719px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+    .cart__img{
+        display: flex;
+        width: 238.719px;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+
+    .cart__name, .cart__title, .cart__price{
+        color: #111;
+        padding-inline: 24px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+    }
+    .cart__price{
+      font-weight: 600;
+    }
+
+    .button__cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        background-color: transparent;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        color: rgb(30, 48, 83);
+        cursor: pointer;
+
+        &:hover{
+          background-color: rgb(30, 48, 83);
+          color: #fff;
+        }
+    } 
+  }

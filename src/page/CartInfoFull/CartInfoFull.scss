@@ -1,0 +1,117 @@
+.cart__info{
+    display: flex;
+    justify-content: center;
+
+}
+
+    .cart__info-text{
+        width: 500px;
+        margin-top: 100px;
+        margin-left: 80px;
+    
+    }
+    .cart__name-full{
+        font-family: Montserrat, sans-serif;
+        color: rgb(51, 51, 51);
+        font-size: 34px;
+        font-weight: 600;
+    }
+    
+
+    .cart__title{
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        color: #000;
+        opacity: 0.6;
+    }
+
+    .cart__info{
+        display: flex;
+
+        .cart__img{
+            width: 720px;
+        } 
+
+    .Manufacturer{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -15px;
+        .Manufacturer__text{
+            font-family: Montserrat, sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            color: #000;
+            opacity: 0.6;
+        }
+        .Manufacturer__brand{
+            font-family: Montserrat, sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            color: #000;
+            opacity: 0.6;
+        }
+    }
+
+    .price{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+
+        .price__text{
+            font-family: Montserrat, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+        }
+
+        .cart__price{
+            display: flex;
+            justify-content: center;
+            font-family: Montserrat, sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #000;
+        } 
+    }
+
+
+    .button__cart{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        background-color: transparent;
+        padding: 13px 0px 13px 0px ;
+        transition: transform 0.3s ease-in-out;
+        font-size: 15px;
+        &:hover{
+            background-color: rgb(30, 48, 83);
+            color: #fff;
+            cursor: pointer;
+            transform: scale(1.05);
+          }
+    }
+}
+.cart__description{
+    margin-top: 50px;
+
+
+    .description__h3{
+        font-family: Montserrat, sans-serif;
+        color: rgb(51, 51, 51);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    .description__text{
+        font-size: 14px;
+        color: rgb(51, 51, 51);
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+        opacity: 0.6;
+        line-height: 21px;
+    }
+}
+

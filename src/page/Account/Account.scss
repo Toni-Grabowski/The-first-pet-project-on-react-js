@@ -1,0 +1,89 @@
+.profile__border {
+    margin-top: 100px;
+    border: 1px solid gray; // Серый цвет обводки
+    width: 250px; // Ширина обводки
+    // margin: 0 auto; // Центрирование блока по горизонтали
+    padding: 20px; // Внутренний отступ для содержания
+    box-sizing: border-box; // Учет паддингов и бордеров в ширине
+    background-color: #1a1a1a; // Темный фон
+    border-radius: 10px; // Закругленные углы
+    text-align: center; // Центрирование текста
+    margin-inline: 100px;
+  }
+  
+  .content__profile {
+    display: flex;
+    flex-direction: column; // Размещение элементов по вертикали
+    align-items: center;
+  }
+  
+  .avatar__user {
+    width: 120px; // Ширина аватара
+    height: 120px; // Высота аватара
+    border-radius: 50%; // Округление краев для создания круглого аватара
+    margin-bottom: 15px; // Отступ снизу для пространства между аватаром и именем
+  }
+  
+  .name__lastName {
+    margin-bottom: 15px; // Отступ снизу для пространства между именем и почтой
+  }
+  
+  .name,
+  .last__name {
+    margin: 0; // Удаление стандартного отступа
+    color: #ffffff; // Белый цвет текста
+    font-size: 18px; // Размер шрифта
+    font-weight: bold; // Жирный шрифт для имени
+  }
+  
+  p {
+    margin: 5px 0; // Небольшой отступ сверху и снизу у всех параграфов
+    color: #b3b3b3; // Светло-серый цвет текста
+  }
+  
+
+  .input{
+    width: 100%; // Ширина инпута на всю ширину контейнера
+    padding: 10px; // Внутренний отступ для инпута
+    margin-bottom: 10px; // Отступ снизу между инпутами
+    border: 1px solid #ccc; // Цвет бордера инпута
+    border-radius: 5px; // Закругленные углы
+    box-sizing: border-box; // Учет паддингов и бордеров в ширине
+    background-color: #2a2a2a; // Темный фон инпута
+    color: #fff; // Белый цвет текста
+  }
+  
+  .button__profile{
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border: 1px solid #00aaff; 
+    background-color: transparent; 
+    color: #00aaff; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+  
+    &:hover {
+      background-color: #00aaff; // Фон при наведении
+      color: #ffffff; // Цвет текста при наведении
+    }
+  }
+  
+  .button__profile-delete{
+    width: 100%; // Кнопки на всю ширину контейнера
+    padding: 10px; // Внутренний отступ для кнопок
+    margin-top: 10px; // Отступ сверху между кнопками
+    background-color: transparent; // Прозрачный фон кнопок
+    cursor: pointer; // Курсор в виде указателя при наведении
+    border-radius: 5px; // Закругленные углы кнопок
+    transition: background-color 0.3s; // Плавный переход фона
+  
+    border-color: #ff4d4d; // Красный цвет бордера для кнопки удаления
+    color: #ff4d4d; // Красный цвет текста для кнопки удаления
+  
+    &:hover {
+      background-color: #ff4d4d; // Красный фон при наведении
+      color: #ffffff; // Белый цвет текста при наведении
+    }
+  }
